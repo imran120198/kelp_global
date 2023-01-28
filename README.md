@@ -13,7 +13,7 @@ In this assignment we have to build a CLI based banking application, where we ha
 
 * Download the zip
 * unzip the folder and open in the VS Code
-* write node index.js in the terminal
+* write **node index.js** in the terminal
 
 ## Commands
 
