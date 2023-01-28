@@ -5,8 +5,8 @@
 In this assignment we have to build a CLI based banking application, where we have to implement the following task 
 
 * Create the account in the bank
-* Deposit in the person bank account
-* Withdraw in the person bank account
+* Deposit money from the person bank account
+* Withdraw money from the person bank account
 * Show balance
 
 ## Setup
