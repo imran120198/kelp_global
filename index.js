@@ -35,6 +35,7 @@ rl.on("line", (input) => {
   }
 });
 
+// Creating bank account
 const createBankAccount = (code, accountName, action) => {
   bankAccount[accountName] = {
     accountName: action,
@@ -44,6 +45,7 @@ const createBankAccount = (code, accountName, action) => {
   //console.log(bankAccount);
 };
 
+// for deposit money
 const depositAmount = (code, accountName, action) => {
   if (bankAccount[accountName]) {
     bankAccount[accountName].balance += Number(action);
@@ -54,6 +56,8 @@ const depositAmount = (code, accountName, action) => {
   }
 };
 
+
+// for withdraw money
 const withdrawAmount = (code, accountName, action) => {
   if (bankAccount[accountName]) {
     bankAccount[accountName].balance -= Number(action);
@@ -64,6 +68,8 @@ const withdrawAmount = (code, accountName, action) => {
   }
 };
 
+
+// for showing balance
 const showBalance = (code, accountName) => {
   if (bankAccount[accountName]) {
     console.log(`${bankAccount[accountName].accountName} ${bankAccount[accountName].balance}  `);
